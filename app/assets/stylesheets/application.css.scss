@@ -11,5 +11,13 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require bootflat
  *= require_self
+ *= require jquery-ui
  */
+
+
+
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
+ // @import "_vars";
