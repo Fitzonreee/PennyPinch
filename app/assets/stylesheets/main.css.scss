@@ -1,3 +1,27 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*******************************
+        LANDING PAGE
+*******************************/
+
+.main-header {
+  font-size: 6.5em;
+  padding: 60px 0 40px 0;
+}
+
+#huge_logo_icon {
+  margin-right: 20px;
+}
+
+.tagline {
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 10px 0 60px 0;
+}
+
+// #app_image {
+//   display: inline-block;
+//   margin: 0 auto;
+// }
