@@ -5,7 +5,11 @@
 /*******************************
         LANDING PAGE
 *******************************/
+@import "_vars";
 
+* {
+  font-family: $main-font;
+}
 .main-header {
   font-size: 6.5em;
   padding: 60px 0 40px 0;
@@ -18,10 +22,17 @@
 .tagline {
   font-weight: 200;
   letter-spacing: 1px;
-  padding: 10px 0 60px 0;
+  padding: 10px 0 120px 0;
 }
 
-// #app_image {
-//   display: inline-block;
-//   margin: 0 auto;
-// }
+#landing_page_hr {
+  margin: 50px 0 10px 0;
+}
+
+.left-content {
+  width: 80%;
+  margin-left: 100px;
+  h3 {
+    margin-top: 0;
+  }
+}
